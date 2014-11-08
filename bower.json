@@ -1,6 +1,7 @@
 {
   "name": "bootstrap-cc",
   "version": "0.0.1",
+  "main": "dist/css/bootstrap-cc.css",
   "authors": [
     "Shu Uesugi <shu@chibicode.com>"
   ],
