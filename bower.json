@@ -19,7 +19,8 @@
     "Gemfile.lock",
     "Gruntfile.js",
     "package.json",
-    "dist/scss/bootstrap-cc.scss"
+    "dist/scss/bootstrap-cc.scss",
+    "example"
   ],
   "devDependencies": {
     "bootstrap-sass-official": "~3.3.0"
