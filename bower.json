@@ -20,7 +20,7 @@
     "Gruntfile.js",
     "package.json",
     "dist/scss/bootstrap-cc.scss",
-    "example"
+    "examples"
   ],
   "devDependencies": {
     "bootstrap-sass-official": "~3.3.0"
