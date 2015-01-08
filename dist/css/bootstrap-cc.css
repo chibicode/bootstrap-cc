@@ -298,6 +298,13 @@
   margin-left: auto;
   margin-right: auto; }
 
+.row.row--no-gutters {
+  margin-right: 0;
+  margin-left: 0; }
+  .row.row--no-gutters > [class^="col-"], .row.row--no-gutters > [class*=" col-"] {
+    padding-left: 0;
+    padding-right: 0; }
+
 .callout {
   padding: 15px;
   margin-bottom: 20px;
@@ -320,9 +327,9 @@
     color: #777777; }
 
 .callout-primary {
-  border-left-color: #428bca; }
+  border-left-color: #337ab7; }
   .callout-primary h1, .callout-primary h2, .callout-primary h3, .callout-primary h4, .callout-primary h5, .callout-primary h6 {
-    color: #428bca; }
+    color: #337ab7; }
 
 .callout-success {
   border-left-color: #5cb85c; }
