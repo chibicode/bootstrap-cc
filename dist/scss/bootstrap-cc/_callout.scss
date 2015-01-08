@@ -23,12 +23,12 @@
   }
 }
 
-$map: (default: $gray-light,
-       primary: $brand-primary,
-       success: $brand-success,
-       danger: $brand-danger,
-       warning: $brand-warning,
-       info: $brand-info);
+$map: ("default": $gray-light,
+       "primary": $brand-primary,
+       "success": $brand-success,
+       "danger": $brand-danger,
+       "warning": $brand-warning,
+       "info": $brand-info);
 
 @each $class, $color in $map {
   .callout-#{$class} {
